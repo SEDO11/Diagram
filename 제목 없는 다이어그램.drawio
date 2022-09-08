@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T00:19:47.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eakIyWEVJ7cdvi3C5DQn" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T00:23:28.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-qtd0IOhhDdOpVUiIVc4" version="20.3.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="415" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,13 +147,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hJUtPRmmATnRkOim40vj-54" value="DBA" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="365" y="20" width="30" height="60" as="geometry" />
+          <mxGeometry x="230" y="140" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hJUtPRmmATnRkOim40vj-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hJUtPRmmATnRkOim40vj-56" target="hJUtPRmmATnRkOim40vj-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hJUtPRmmATnRkOim40vj-56" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hJUtPRmmATnRkOim40vj-59" value="회원정보&lt;br&gt;저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJUtPRmmATnRkOim40vj-60" value="회원정보&lt;br&gt;조회" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJUtPRmmATnRkOim40vj-61" value="회원정보&lt;br&gt;조회후 삭제" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hJUtPRmmATnRkOim40vj-63" value="front-end" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="170" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="hJUtPRmmATnRkOim40vj-64" value="back-end" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="870" height="660" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
